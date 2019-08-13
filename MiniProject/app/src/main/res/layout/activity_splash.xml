@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.SplashActivity"
+    android:background="@drawable/bg">
+
+    <ImageView
+        android:id="@+id/imgVwBal"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:src="@drawable/balloon"
+        />
+
+   <TextView
+        android:id="@+id/txtVwSplash"
+        android:layout_width="200sp"
+        android:layout_height="50sp"
+        android:text="Welcome"
+        android:textColor="@android:color/black"
+        android:textSize="32sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/imgVwBal"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:background="@drawable/rounded_corner"
+        />
+
+</RelativeLayout>
